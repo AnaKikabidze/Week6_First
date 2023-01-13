@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 10% 1fr 10%;
+  height: 100vh;
+}
+header {
+  background-color: rgb(239, 225, 225);
+  grid-column: 1/4;
+}
+main {
+  background-color: rgb(231, 206, 234);
+}
+aside {
+  background-color: rgb(192, 238, 238);
+}
+footer {
+  border: 1px solid red;
+  background-color: rgb(178, 138, 216);
+  grid-column: 1/4;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+}
